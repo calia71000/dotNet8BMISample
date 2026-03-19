@@ -17,7 +17,7 @@
         {
             float result = 0;
             //將float改成int試試看
-            float height = (int)Height / 100;
+            float height = Height / 100f;
             result = Weight / (height * height);
 
             return result;
